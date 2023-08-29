@@ -16,7 +16,7 @@ const activeMenuConstants = {
   savedVideos: 'SAVED_VIDEOS',
 }
 
-const MenuItemsList = () => {
+const MenuItemList = () => {
   const menuList = value => {
     const {isDarkTheme} = value
     const theme = isDarkTheme ? 'dark' : 'light'
@@ -122,4 +122,4 @@ const MenuItemsList = () => {
   )
 }
 
-export default MenuItemsList
+export default MenuItemList

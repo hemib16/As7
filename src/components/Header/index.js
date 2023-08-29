@@ -10,7 +10,7 @@ import Cookies from 'js-cookie'
 
 import Popup from 'reactjs-popup'
 
-import MenuItemsList from '../MenuItemsList'
+import MenuItemList from '../MenuItemList'
 
 import ActiveMenuContext from '../../Context/ActiveMenuContext'
 import ThemeContext from '../../Context/ThemeContext'
@@ -99,7 +99,7 @@ class Header extends Component {
                           </IconButton>
                         </CloseButton>
                         <MenuListMobile>
-                          <MenuItemsList />
+                          <MenuItemList />
                         </MenuListMobile>
                       </MenuPopupMobile>
                     )}
